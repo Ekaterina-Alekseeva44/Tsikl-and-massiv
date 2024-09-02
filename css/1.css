@@ -1,0 +1,58 @@
+body {
+    padding: 40px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+.open-btn {
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 14px 24px;
+    cursor: pointer;
+    transition: background-color .3s;
+    margin-bottom: 10px;
+}
+
+.open-btn:hover {
+    background-color: rgb(161, 96, 223);
+}
+
+.open-btn:active {
+    background-color: rgb(119, 37, 196);
+}
+
+.menu {
+    background-color: white;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    max-width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+.menu.open {
+    display: block;
+}
+
+.menu__link {
+    display: block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #525252;
+    transition: background-color .3s;
+}
+
+.menu__link:hover {
+    background-color: #b9b9b9;
+}
+
+
+
+
+
